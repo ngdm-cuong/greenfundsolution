@@ -1,141 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <!-- Notes: Add social media links to buttons-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me</title>
+  <link href="styles.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>AgSelect</title>
 </head>
+
 <body>
-  <header>
-        <div class="bg-dark collapse show" id="navbarHeader" style="">
-          <div class=" container">
-            <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus iure, nesciunt quia. Harum mollitia laudantium totam fuga cum placeat sint quo eos. Corporis repudiandae libero doloribus repellendus exercitationem provident similique adipisci voluptates modi a temporibus, incidunt architecto doloremque iusto perspiciatis, dolor magni minima saepe dolore totam ratione harum illo neque!</p>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white">Contact</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                  <li><a href="#" class="text-white">Like on Facebook</a></li>
-                  <li><a href="#" class="text-white">Email me</a></li>
-                </ul>
-              </div>
-            </div>
+  <div class="image"> </div>
+  <div class="split left">
+    <!-- Add font awesome icons -->
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+  <a href="#" class="fa fa-snapchat-ghost"></a>
+  <a href="#" class="fa fa-skype"></a>
+  <a href="#" class="fa fa-android"></a>
+  <a href="#" class="fa fa-dribbble"></a>
+  <a href="#" class="fa fa-vimeo"></a>
+  <a href="#" class="fa fa-tumblr"></a>
+  <a href="#" class="fa fa-vine"></a>
+  <a href="#" class="fa fa-foursquare"></a>
+  <a href="#" class="fa fa-stumbleupon"></a>
+  <a href="#" class="fa fa-flickr"></a>
+  <a href="#" class="fa fa-yahoo"></a>
+  <a href="#" class="fa fa-reddit"></a>
+  <a href="#" class="fa fa-rss"></a>
+  </div>
+  <div class="split right">
+    <h3>Contact With: </h3>
+
+    <div class="container">
+      <form action="thankyou.html" method="get">
+        <fieldset>
+
+          <legend>
+            Enter Your Contact Information:
+          </legend>
+          <br>
+          <label for="Name">
+            First Name:
+            <input id="Name" autofocus required type="text" name=Name placeholder="Your Name Here">
+          </label>
+
+          <label for="eMail">
+            Email:
+            <input id="eMail" required type="email" name="eMail" placeholder="Email">
+          </label>
+          <br>
+          <label for="advisor">
+            Select Advisor:
+            <select id="advisor" name="advisor">
+              <option value="Tiffany Ford">Tiffany Ford</option>
+              <option value="Kirsten Markley">Kirsten Markley</option>
+              <option value="Renee Riley">Renee Riley</option>
+            </select>
+          </label>
+
+          <label for="month"></label>
+          Select Month:
+          <select id="month" name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">October</option>
+            <option value="October">October</option>
+            <option value="November">Novemebr</option>
+            <option value="December">December</option>
+          </select>
+
+          <label for="day"></label>
+          Select a Day:
+          <select id="day" name="day" size="2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <br>
+          <p>Select a time of day:</p>
+          <input type="radio" name="time" value="a.m.">a.m.
+          <input type="radio" name="time" value="p.m.">p.m.
+          <div class="move">
+            <p id="crabbyPatty">Select the appropriate course:</p>
+            <input type="radio" name="course" value="CIS-130">CIS-130
+            <input type="radio" name="course" value="CIS-131">CIS-131
+            <input type="radio" name="course" value="CIS-120">CIS-120
+            <input type="radio" name="course" value="CIS-220">CIS-220
+            <input type="radio" name="course" value="CIS-170">CIS-170
           </div>
-        </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-          <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
-              <i style="font-size:24px" class="fa">&#xf095;</i>
-              <strong>. AgSelect</strong>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-  </header>
-    <div class= "container">
-      <div class= "logo">
-        <h1>Logo</h1>
-      </div>
+          <br><br>
+          <label for="comments"></label>
+          Comments to Advisor:<br>
+          <textarea id="comments" name="message" rows="5" cols="90" placeholder="Note to the Advisor"></textarea>
 
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Travel site</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <!--  -->
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      <!-- Slideshows -->
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-         <ol class="carousel-indicators">
-           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-         </ol>
-     <div class="carousel-inner">
-       <div class="carousel-item active">
-         <img class="d-block w-100" src="table.png" alt="Premium Organic Food and Spirits">
-       </div>
-       <div class="carousel-item">
-         <img class="d-block w-100" src="organicGreens.png" alt="Organic Sprout Farm">
-       </div>
-       <div class="carousel-item">
-         <img class="d-block w-100" src="tequila.png" alt="Premium Spirits">
-       </div>
-     </div>
-     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-       <span class="sr-only">Previous</span>
-     </a>
-     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-       <span class="sr-only">Next</span>
-     </a>
-   </div>
- <hr>
-    <!-- Iframe  -->
-    <div class = "contact">
-      <p>Contact</p>
+        </fieldset>
+        <input class="submit" type="submit" value="Request Appointment">
+      </form>
     </div>
-    <!-- Iframe  -->
+  </div>
 
-
-
-    </div>
-
-    <footer>
-      <div class="curve" style="height: 300px; overflow: hidden;" >
-        <svg viewBox="0 0 500 500" preserveAspectRatio="none">
-          <path d="M-0.35,1.48 C185.49,124.83 345.84,-64.63 500.35,28.13 L507.65,154.44 L0.00,150.00 Z" style="stroke: none; fill:#009900;"></path>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa odit qui veritatis commodi voluptatum ipsum eaque ex neque officia optio!</p>
-        </svg>
-      </div>
-    </footer>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
