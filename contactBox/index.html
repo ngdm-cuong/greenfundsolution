@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Notes: Add social media links to buttons-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="image"> </div>
+  <div class="split left">
+    <!-- Add font awesome icons -->
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+  <a href="#" class="fa fa-snapchat-ghost"></a>
+  <a href="#" class="fa fa-skype"></a>
+  <a href="#" class="fa fa-android"></a>
+  <a href="#" class="fa fa-dribbble"></a>
+  <a href="#" class="fa fa-vimeo"></a>
+  <a href="#" class="fa fa-tumblr"></a>
+  <a href="#" class="fa fa-vine"></a>
+  <a href="#" class="fa fa-foursquare"></a>
+  <a href="#" class="fa fa-stumbleupon"></a>
+  <a href="#" class="fa fa-flickr"></a>
+  <a href="#" class="fa fa-yahoo"></a>
+  <a href="#" class="fa fa-reddit"></a>
+  <a href="#" class="fa fa-rss"></a>
+  </div>
+  <div class="split right">
+    <h3>Contact With: </h3>
+
+    <div class="container">
+      <form action="thankyou.html" method="get">
+        <fieldset>
+
+          <legend>
+            Enter Your Contact Information:
+          </legend>
+          <br>
+          <label for="Name">
+            First Name:
+            <input id="Name" autofocus required type="text" name=Name placeholder="Your Name Here">
+          </label>
+
+          <label for="eMail">
+            Email:
+            <input id="eMail" required type="email" name="eMail" placeholder="Email">
+          </label>
+          <br>
+          <label for="advisor">
+            Select Advisor:
+            <select id="advisor" name="advisor">
+              <option value="Tiffany Ford">Tiffany Ford</option>
+              <option value="Kirsten Markley">Kirsten Markley</option>
+              <option value="Renee Riley">Renee Riley</option>
+            </select>
+          </label>
+
+          <label for="month"></label>
+          Select Month:
+          <select id="month" name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">October</option>
+            <option value="October">October</option>
+            <option value="November">Novemebr</option>
+            <option value="December">December</option>
+          </select>
+
+          <label for="day"></label>
+          Select a Day:
+          <select id="day" name="day" size="2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <br>
+          <p>Select a time of day:</p>
+          <input type="radio" name="time" value="a.m.">a.m.
+          <input type="radio" name="time" value="p.m.">p.m.
+          <div class="move">
+            <p id="crabbyPatty">Select the appropriate course:</p>
+            <input type="radio" name="course" value="CIS-130">CIS-130
+            <input type="radio" name="course" value="CIS-131">CIS-131
+            <input type="radio" name="course" value="CIS-120">CIS-120
+            <input type="radio" name="course" value="CIS-220">CIS-220
+            <input type="radio" name="course" value="CIS-170">CIS-170
+          </div>
+          <br><br>
+          <label for="comments"></label>
+          Comments to Advisor:<br>
+          <textarea id="comments" name="message" rows="5" cols="90" placeholder="Note to the Advisor"></textarea>
+
+        </fieldset>
+        <input class="submit" type="submit" value="Request Appointment">
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
