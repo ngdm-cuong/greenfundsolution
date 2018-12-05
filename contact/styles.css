@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(241,241,241);
+}
+.greenheader {
+  position:relative;
+  height: 500px;
+  background-image: linear-gradient(#009900, #004d00);
+  border-bottom-left-radius: 0% 0%;
+  border-bottom-right-radius: 0% 0%;
+  z-index: -1;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+.polygon{
+  background-image: url(https://www.algolia.com/static_assets/images/v3/mobile-search/hero-54027c37.svg);
+}
+
+
+.greenheader ::before{
+background: rgba(0,0,0,0) url(http://www.abbeymoore.net/wp-content/themes/am2/img/bg-angle.svg) no-repeat bottom left;
+background-size: 56% 252%;
+bottom: -1px;
+content: ' ';
+height: 0;
+left: 0;
+padding-bottom: 250px;
+position: absolute;
+width: 100%;
+z-index: 0;
+
+}
