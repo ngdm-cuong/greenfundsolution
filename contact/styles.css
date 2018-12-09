@@ -1,31 +1,41 @@
 body{
   background-color: rgb(241,241,241);
+  /* position:absolute; */
 }
-.greenheader {
-  position:relative;
-  height: 500px;
-  background-image: linear-gradient(#009900, #004d00);
-  border-bottom-left-radius: 0% 0%;
-  border-bottom-right-radius: 0% 0%;
-  z-index: -1;
-  width: 100%;
-}
-
-h1 {
-  margin: 0;
-  padding: 100px 0;
-  font: 44px "Arial";
-  text-align: center;
-}
-
 header h1 {
+  margin: 0;
+  font: 82px "Arial";
+  text-align: center;
+  height: 100px;
+  padding: 131px 0;
+}
+
+header{
   color: white;
 }
 .polygon{
-  background-image: url(https://www.algolia.com/static_assets/images/v3/mobile-search/hero-54027c37.svg);
+  background-image:  url(https://www.algolia.com/static_assets/images/v3/mobile-search/hero-54027c37.svg);
+  position:relative;
+  z-index:0;
+
 }
 
+.greenheader {
+  background-color: rgb(241,241,241);
+  /* background-image: linear-gradient(#009900, #004d00);
+  border-bottom-left-radius: 0% 0%;
+  border-bottom-right-radius: 0% 0%; */
+  height: 500px;
+  position:absolute;
+  background-size: 100%;
+  background-position: 20% 0%;
+  z-index: -1;
+  width: 100%;
+  cursor: pointer;
 
+
+}
+/* cover a part of the bottom right of the background to create shape */
 .greenheader ::before{
 background: rgba(0,0,0,0) url(http://www.abbeymoore.net/wp-content/themes/am2/img/bg-angle.svg) no-repeat bottom left;
 background-size: 56% 252%;
@@ -37,5 +47,33 @@ padding-bottom: 250px;
 position: absolute;
 width: 100%;
 z-index: 0;
+}
+
+
+section{
+  margin-top: 17px;
+  position:absolute;
+  padding-left: 0px;
+  padding-top: 34px;
+
+}
+section h2{
+  font-size: 3.1rem;
+}
+
+section p{
+font-size: 1em;
+font-size: 1.2em;
+}
+
+.bg{
+  background-image:url(handshake.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  margin-top:300px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 
 }
