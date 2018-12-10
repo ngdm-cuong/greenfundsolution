@@ -6,7 +6,9 @@ body{
 
 .container-fluid{
   width:100%;
+  
 }
+
 
 /* Footer format sectoin */
 footer{
@@ -36,33 +38,27 @@ footer hr{
 }
 
 .transparentbox{
-background-color:rgba(0,0,0,0.1);
+  background-color:rgba(0,0,0,0.2);
+  padding-top: 49px;
+  padding-bottom: 49px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
 
 }
 
 /* Footer format section end */
-/* Dark Nav-Bar */
-.who, .text-muted{
-  text-align:left;
-  width:70%;
-}
+
 
 /* to position logo in black nav bar*/
 
 
-/* */
-
-
-.container-fluid{
-  width:100%;
-}
 
 
 /*Social media links */
 #organic{
 
 }
-.fa {
+/*.fa {
   padding: 20px;
   font-size: 50px;
   width: 50px;
@@ -70,7 +66,7 @@ background-color:rgba(0,0,0,0.1);
   text-decoration: none;
   margin: 5px 15px;
   border-radius: 50%;
-}
+}*/
 
 .fa:hover {
     opacity: 0.7;

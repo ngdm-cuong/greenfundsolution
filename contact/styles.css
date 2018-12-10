@@ -11,6 +11,18 @@ nav{
   transition: top 0.3s;
   /* transition: opacity 1s; */
 }
+/*rounded icon*/
+
+.roundedicon{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
 
 header h1 {
   margin: 0;
@@ -87,6 +99,7 @@ font-size: 1.2em;
 
 }
 /* Footer format sectoin */
+
 footer{
   position:relative;
 }
@@ -114,8 +127,19 @@ footer hr{
 }
 
 .transparentbox{
-background-color:rgba(0,0,0,0.1);
+  background-color:rgba(0,0,0,0.1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 
+}
+/*Addition for non curve footer*/
+.noncurveft{
+   background-image: linear-gradient(#009900, #004d00);
+   padding-left: 113px;
+   padding-right: 113px;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 
 /* Footer format section end */
