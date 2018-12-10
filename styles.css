@@ -6,7 +6,7 @@ body{
 
 .container-fluid{
   width:100%;
-  
+
 }
 
 
@@ -42,9 +42,31 @@ footer hr{
   padding-top: 49px;
   padding-bottom: 49px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-
-
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .transparentbox{
+    background-color:rgba(0,0,0,0.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+  }
+  /*Addition for non curve footer*/
+  .noncurveft{
+     background-image: linear-gradient(#009900, #004d00);
+     padding-left: 113px;
+     padding-right: 113px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+  }
+  svg{
+    display: none;
+  }
+}
+
 
 /* Footer format section end */
 
@@ -58,15 +80,13 @@ footer hr{
 #organic{
 
 }
-/*.fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
+.fa {
+
+  font-size: 40px;
   text-decoration: none;
-  margin: 5px 15px;
+  text-align: center;
   border-radius: 50%;
-}*/
+}
 
 .fa:hover {
     opacity: 0.7;
