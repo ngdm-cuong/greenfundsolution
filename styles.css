@@ -1,8 +1,33 @@
 
 body{
 
+}
+
+
+.container-fluid{
+  width:100%;
+}
+footer{
+  position:relative;
+}
+footer p {
+    margin-bottom: 0px;
+    color:#003300;
+}
+footer a {
+
+  display: block;
+  color:white;
+}
+hr{
+  height: 1px;
+  color: white;
+  background-color: white;
+  border: none;
+  width:75%;
 
 }
+
 
 /* Dark Nav-Bar */
 .who, .text-muted{
@@ -14,24 +39,13 @@ body{
 
 
 /* */
-.contact {
-  width: 288pt;
-  height: 148px;
-  bottom: 63pt;
-  right: 18pt;
-  width: 288pt;
-  max-height: 100%;
-  top: auto;
-  color: pink;
-}
+
 
 .container-fluid{
   width:100%;
 }
 
-footer p {
-    margin-bottom: 0px;
-}
+
 
 /*Social media links */
 #organic{
