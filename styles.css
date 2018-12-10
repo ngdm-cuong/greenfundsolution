@@ -12,3 +12,11 @@ body{
   top: auto;
   color: pink;
 }
+
+.container-fluid{
+  width:100%;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
