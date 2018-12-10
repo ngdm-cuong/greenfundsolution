@@ -7,6 +7,11 @@ nav{
 }
 
 
+#navbar {
+  transition: top 0.3s;
+  /* transition: opacity 1s; */
+}
+
 header h1 {
   margin: 0;
   font: 82px "Arial";
@@ -81,6 +86,36 @@ font-size: 1.2em;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 
 }
+/* Footer format sectoin */
 footer{
   position:relative;
 }
+footer p {
+    margin-bottom: 0px;
+    color:#003300;
+}
+footer a {
+
+  display: block;
+  color:white;
+}
+footer hr{
+  height: 1px;
+  color: white;
+  background-color: white;
+  border: none;
+  width:80%;
+}
+.arrow{
+  position: absolute;
+  top:23px;
+  bottom:0;
+  right:0;
+}
+
+.transparentbox{
+background-color:rgba(0,0,0,0.1);
+
+}
+
+/* Footer format section end */
