@@ -61,8 +61,9 @@ footer hr{
      padding-right: 113px;
      padding-top: 40px;
      padding-bottom: 40px;
+     position:absolute;
   }
-  svg{
+  .hidecurve{
     display: none;
   }
 }
@@ -103,3 +104,11 @@ footer hr{
   color: white;
   float:left;
 }
+
+/* Middle curve section */
+.roundimg{
+  height:120px;
+  width: 120px;
+  border-radius: 50%;
+}
+/* END Middle curve section */
