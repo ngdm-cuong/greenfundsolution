@@ -1,1 +1,145 @@
-html{background-color:green;}
+body{
+  background-color: rgb(241,241,241);
+  /* position:absolute; */
+}
+nav{
+  background-color:rgba(255,255,255,0.95);
+}
+
+
+#navbar {
+  transition: top 0.3s;
+  /* transition: opacity 1s; */
+}
+/*rounded icon*/
+
+.roundedicon{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+header h1 {
+  margin: 0;
+  font: 82px "Arial";
+  text-align: center;
+  height: 100px;
+  padding: 131px 0;
+}
+
+header{
+  color: white;
+}
+.polygon{
+  background-image:  url(https://www.algolia.com/static_assets/images/v3/mobile-search/hero-54027c37.svg);
+  position:relative;
+  z-index:0;
+
+}
+
+.greenheader {
+  background-color: rgb(241,241,241);
+  /* background-image: linear-gradient(#009900, #004d00);
+  border-bottom-left-radius: 0% 0%;
+  border-bottom-right-radius: 0% 0%; */
+  height: 500px;
+  position:absolute;
+  background-size: 100%;
+  background-position: 20% 0%;
+  z-index: -1;
+  width: 100%;
+  cursor: pointer;
+
+
+}
+/* cover a part of the bottom right of the background to create shape */
+.greenheader ::before{
+background: rgba(0,0,0,0) url(http://www.abbeymoore.net/wp-content/themes/am2/img/bg-angle.svg) no-repeat bottom left;
+background-size: 56% 252%;
+bottom: -1px;
+content: ' ';
+height: 0;
+left: 0;
+padding-bottom: 250px;
+position: absolute;
+width: 100%;
+z-index: 0;
+}
+
+
+section{
+  margin-top: 17px;
+  position:absolute;
+  padding-left: 0px;
+  padding-top: 34px;
+
+}
+section h2{
+  font-size: 3.1rem;
+}
+
+section p{
+font-size: 1em;
+font-size: 1.2em;
+}
+
+.bg{
+  background-image:url(handshake.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+/* Footer format sectoin */
+
+footer{
+  position:relative;
+}
+footer p {
+    margin-bottom: 0px;
+    color:#003300;
+}
+footer a {
+
+  display: block;
+  color:white;
+}
+footer hr{
+  height: 1px;
+  color: white;
+  background-color: white;
+  border: none;
+  width:80%;
+}
+.arrow{
+  position: absolute;
+  top:23px;
+  bottom:0;
+  right:0;
+}
+
+.transparentbox{
+  background-color:rgba(0,0,0,0.1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+/*Addition for non curve footer*/
+.noncurveft{
+   background-image: linear-gradient(#009900, #004d00);
+   padding-left: 113px;
+   padding-right: 113px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+/* Footer format section end */
