@@ -1,6 +1,5 @@
 
 body{
-
 }
 
 
@@ -47,6 +46,33 @@ footer hr{
   padding-bottom: 49px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
+
+/* Middle curve */
+
+  .curvefull{
+    padding-top: 90px;
+  }
+
+/* Responsive for middle curve zoom in*/
+@media only screen and (max-width: 1745px) {
+  .curvezoomin{
+  position:absolute;
+  height:600px;
+  }
+
+  }
+@media only screen and (min-width: 2618px) {
+  .curvezoomout{
+    padding-top: 322px;
+    padding-bottom: 197px;
+  }
+
+  }
+
+
+/* END Responsive for middle curve zoom in*/
+
+
   /* For mobile phones: */
 @media only screen and (max-width: 768px) {
 
@@ -74,9 +100,6 @@ footer hr{
 
 
 /* Footer format section end */
-
-
-/* to position logo in black nav bar*/
 
 
 
