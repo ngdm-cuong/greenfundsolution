@@ -9,11 +9,15 @@ body{
 
 }
 
-
-/* Footer format sectoin */
-footer{
-  position:relative;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+
+.carouselround{}
+/* Footer format sectoin */
+
 footer p {
     margin-bottom: 0px;
     color:#003300;
@@ -43,9 +47,9 @@ footer hr{
   padding-bottom: 49px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
-
-@media only screen and (max-width: 768px) {
   /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
 
   .transparentbox{
     background-color:rgba(0,0,0,0.1);
