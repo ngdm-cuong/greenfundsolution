@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <title>Contact</title>
 </head>
 
-<body class="polygon" >
+<body class="polygon" style="padding-left: 0px;padding-right: 0px;" >
   <!-- Long navbar -->
   <div class="bg-dark collapse hide" id="navbarHeader" style="">
     <div class=" container" style="margin-top: 0px;">
@@ -22,9 +24,22 @@
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contact</h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+
+            <li style="position:absolute; left: 0px;right: 0px;margin-top: 4px;">
+              <a href="https://twitter.com/ag_select" class="fa fa-twitter "></a>
+            </li>
+            <li style=" padding-left: 5px;"><a href="https://twitter.com/ag_select" class="text-white">Follow on Twitter</a></li>
+
+            <li style="position:absolute; left: 0px;right: 0px;margin-top: 0px;">
+              <a href="https://www.facebook.com/AgSelectUSA/" class="fa fa-facebook roundedicon" style="width:15.45px;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;" ></a>
+            </li>
+            <li style=" padding-left: 5px;"><a href="https://www.facebook.com/AgSelectUSA/" class="text-white">Like on Facebook</a></li>
+
+            <li style="position:absolute; left: 0px;right: 0px;margin-top: 0px;">
+              <a href="mailto:dhamilton@greenfundsolutions.com"> <img src="../email-icon.png" alt="" style="width:14.86px;" ></a>
+            </li>
+            <li style=" padding-left: 5px;"><a href="mailto:dhamilton@greenfundsolutions.com" class="text-white">Email me</a></li>
+
           </ul>
         </div>
       </div>
@@ -32,10 +47,9 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between" style="margin-top: 0px;">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
-        <!-- <i style="font-size:24px" class="fa">&#xf095;</i> -->
-        <strong>. AgSelect</strong>
+      <a href="https://greenfundsolutions.com/" class="navbar-brand d-flex align-items-center">
+        <i style="font-size:24px" class="fa">&#xf095;</i>
+        <strong>. Greenfund, LLC</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,7 +60,7 @@
 <!-- End long nav -->
 
  <!-- sytle="padding-left:0px; padding-right:0px" -->
-  <div class="container-fluid">
+
 
   <div class="container-fluid" style="padding-left: 0px;padding-right: 0px;">
 
@@ -109,14 +123,17 @@
         </div>
       </div>
       <header>
-        <h1>Contact</h1>
+        <h1 style= "font-family: 'Bungee', cursive;">Contact Us</h1>
       </header>
       </div>
-      <div class="row">
+      <div class="row" style="
+    margin-left: 0px;
+    margin-right: 0px;
+">
          <div class="col-5">
            <section>
-             <h2>Better yet, see us in person!</h2>
-             <p>We love our customers, so feel free to visit during normal business hours. </p>
+             <h2 class= "slogan">Better yet, see us in person!</h2>
+             <p class="slogan">We love our customers, so feel free to visit during normal business hours. </p>
            </section>
          </div>
          <div class="col">
@@ -126,11 +143,16 @@
   </div>
 
 <!--  Main content-->
-  <div class="container " style="margin-top:237px;;">
+  <div class="container" style="margin-top: 284px;border-bottom-width: 0px;margin-bottom: 38px;  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;">
 
 <!-- This is for the contact form-->
-       <div class="row">
-       <div  class= col>
+       <div class="row rounded" style="padding-top: 15px;
+    padding-bottom: 0px;border-radius: 4px;border:1px solid #ccc!important;position:relative;
+      z-index: 1;">
+          <div class="mainbg"></div>
+       <div  class= "col rounded shadow" style="
+    padding-bottom: 15px;
+">
          <div class="contactForm">
 
           <form  method="get" action="action_page.php">
@@ -172,25 +194,16 @@
          </div>
        </div>
        <div class = "col-4">
-         <p>Open hours</p>
+         <p style="text-align:center;" >Open hours</p>
           <div class="row">
-            <div class ="col-2">
-              <p>Mo:</p>
-              <p>Tue:</p>
-              <p>Wed:</p>
-              <p>Thu:</p>
-              <p>Fri:</p>
-              <p>Sat:</p>
-              <p>Sun:</p>
-            </div>
-            <div class = "col">
-              <p>9:00 am – 5:00 pm</p>
-              <p>9:00 am – 5:00 pm</p>
-              <p>9:00 am – 5:00 pm</p>
-              <p>9:00 am – 5:00 pm</p>
-              <p>9:00 am – 5:00 pm</p>
-              <p>Closed</p>
-              <p>Closed</p>
+            <div class ="col" style="text-align:center;">
+              <p>Mon: 9:00 am – 5:00 pm</p>
+              <p>Tue: 9:00 am – 5:00 pm</p>
+              <p>Wed: 9:00 am – 5:00 pm</p>
+              <p>Thu: 9:00 am – 5:00 pm</p>
+              <p>Fri: 9:00 am – 5:00 pm</p>
+              <p>Sat: Closed</p>
+              <p>Sun: Closed</p>
             </div>
           </div>
        </div>
@@ -198,7 +211,6 @@
      </div>
   </div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae facere accusantium et obcaecati impedit mollitia dolorem nobis quaerat accusamus possimus vero recusandae sint delectus velit natus nisi sed nihil debitis, porro aspernatur sit. Tempore rerum rem vero illum. Obcaecati blanditiis cupiditate cum officia quam delectus minima commodi, illo voluptatum. Nulla velit, adipisci, nesciunt saepe quae vero architecto impedit voluptates, quisquam consequuntur facilis! Et, vero! Harum molestias consectetur quibusdam odit, voluptates temporibus nesciunt doloremque totam excepturi velit itaque quos quasi porro, facilis placeat, architecto beatae quam. Eveniet sit esse minima, eius ad, maiores quasi dolor pariatur velit! Et assumenda, odio, ratione cupiditate eum maiores expedita possimus qui dolorem, eaque numquam voluptatibus aperiam debitis. Cumque quos hic temporibus animi doloremque labore commodi, accusantium, architecto deserunt, eius optio laboriosam molestias quam eos repellendus perferendis natus placeat quae quasi nesciunt aspernatur. Iusto eligendi laborum, perspiciatis autem ullam, consequatur quidem voluptatum similique beatae incidunt veniam molestias ipsa doloribus esse impedit rerum obcaecati, quam, architecto libero. Maiores, ducimus itaque, nam officiis, possimus assumenda dicta nemo eligendi culpa nulla dolores suscipit eveniet atque. Debitis repellat officiis perspiciatis atque iste dolor rerum numquam placeat et iure voluptatibus magnam, non dicta. Temporibus omnis mollitia, aliquid laudantium? Corporis, perspiciatis, delectus ipsa modi nostrum quod? Eaque magnam libero quae, ratione minima nihil beatae nesciunt, similique esse quam, necessitatibus asperiores temporibus cumque possimus debitis! Soluta obcaecati quis officiis ratione! Dignissimos similique accusamus cum neque sequi cumque sed, aut sint placeat dolor est, quae eligendi debitis totam autem doloremque quia dolores amet sit? Nam aspernatur perferendis dicta inventore animi temporibus, iusto ullam, harum non amet exercitationem accusamus! Perferendis modi quod illo quos non nihil at, accusantium sapiente aperiam repellat rem sed quasi, vero nobis. Laudantium nam sit explicabo dicta quasi aperiam adipisci quibusdam laboriosam vero consectetur deleniti eaque error illo facilis neque mollitia ad fugiat distinctio impedit cum in corporis, quis saepe. Magnam tempora vitae debitis maiores laborum, aperiam ipsum voluptate sapiente nostrum nobis, in officia laudantium tenetur? Libero molestias in ipsam quod ex deserunt fugiat tempore similique at reprehenderit magnam explicabo nemo, corporis illo molestiae est earum! Totam officia, tempore culpa. Magni fugiat consequuntur modi, ab rerum numquam distinctio fuga eveniet quas inventore, autem aliquid illum nihil asperiores, non quia sunt dolor. Enim nesciunt, tenetur mollitia nihil corrupti, odio ipsa perferendis a eveniet eos quidem omnis, iure iste consectetur velit accusamus qui. Quae molestias cumque doloremque reiciendis esse ea maiores suscipit vero deleniti tempore ratione necessitatibus, nam aut soluta nisi modi? Sint quidem magni eligendi, id, et repellendus fugit numquam ex exercitationem earum tenetur sunt, molestiae quisquam in quis minus soluta temporibus autem fuga enim rem. Modi sint nisi atque ullam eius aspernatur voluptas nam quibusdam, temporibus autem excepturi fugiat ut aperiam voluptatibus laudantium reprehenderit soluta voluptate sapiente consequuntur quas velit? Neque repellat quibusdam eveniet ullam, consectetur, mollitia blanditiis minus beatae obcaecati accusantium! Corporis necessitatibus minima labore illo nesciunt amet molestias inventore, deserunt suscipit quae error quos provident mollitia voluptatibus eaque incidunt nostrum maiores, ad ipsa! Ut sit perspiciatis, sequi maxime eum architecto quo dolores non, omnis sunt eaque quibusdam. Rerum nisi qui odio officiis, excepturi perferendis blanditiis, dicta esse officia doloremque doloribus! Laudantium fugit omnis vel itaque autem alias, inventore consequatur eaque a, maxime iste. Odit asperiores, voluptates neque illo veritatis praesentium assumenda tempora delectus non eum. Ullam accusantium expedita placeat earum debitis. Nobis voluptates similique distinctio corporis totam minima perferendis ex, quisquam, dignissimos at. Nostrum similique, neque. Dicta architecto laborum mollitia, at tempore nemo autem, deleniti neque! Necessitatibus provident, magnam nam omnis mollitia consequatur libero, blanditiis eaque ratione repellendus praesentium quo sequi eos quis, corporis ea commodi laborum? Iusto!</p>
   <!--  Footer -->
   <div class= "container-fluid" style="padding-left: 0px;padding-right: 0px;" >
     <footer style="">

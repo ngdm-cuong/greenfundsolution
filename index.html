@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <title>AgSelect</title>
 </head>
 <body>
@@ -22,19 +23,22 @@
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
               <ul class="list-unstyled">
+
                 <li style="position:absolute; left: 0px;right: 0px;margin-top: 4px;">
-                  <a href="#" class="fa fa-twitter roundedicon"></a>
+                  <a href="https://twitter.com/ag_select" class="fa fa-twitter "></a>
                 </li>
-                <li style=" padding-left: 5px;"><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li style=" padding-left: 5px;"><a href="https://twitter.com/ag_select" class="text-white">Follow on Twitter</a></li>
 
                 <li style="position:absolute; left: 0px;right: 0px;margin-top: 0px;">
-                  <a href="#" class="fa fa-facebook roundedicon" style="width:15.45px;" ></a>
+                  <a href="https://www.facebook.com/AgSelectUSA/" class="fa fa-facebook roundedicon" style="width:15.45px;" ></a>
                 </li>
-                <li style=" padding-left: 5px;"><a href="#" class="text-white">Like on Facebook</a></li>
+                <li style=" padding-left: 5px;"><a href="https://www.facebook.com/AgSelectUSA/" class="text-white">Like on Facebook</a></li>
+
                 <li style="position:absolute; left: 0px;right: 0px;margin-top: 0px;">
                   <a href="mailto:dhamilton@greenfundsolutions.com"> <img src="./email-icon.png" alt="" style="width:14.86px;" ></a>
                 </li>
-                <li style=" padding-left: 5px;"><a href="#" class="text-white">Email me</a></li>
+                <li style=" padding-left: 5px;"><a href="mailto:dhamilton@greenfundsolutions.com" class="text-white">Email me</a></li>
+
               </ul>
             </div>
           </div>
@@ -42,10 +46,9 @@
       </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between" style="margin-top: 0px;">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
+          <a href="https://greenfundsolutions.com/" class="navbar-brand d-flex align-items-center">
             <i style="font-size:24px" class="fa">&#xf095;</i>
-            <strong>. AgSelect</strong>
+            <strong>. Greenfund, LLC</strong>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -104,7 +107,7 @@
       </nav>
       <!-- Slideshows -->
 
-      <div id="carouselExampleIndicators" class="carousel slide carouselround" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carouselround" data-ride="carousel" style="border-radius: .25rem!important;">
          <ol class="carousel-indicators">
            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -321,10 +324,15 @@
                 <fieldset>
                 <label for="email">
                   Email address
-                    <input class="form-control" type="email" name="email" id="email" required placeholder="Enter email"  style="position:absolute"/>
-                    <input class="submit arrow" type="image" src="./arrow.png" alt="Submit" style="position:absolute; width:2.5em;"/>
+                    <input class="form-control " type="email" name="email" id="email" required placeholder="Enter email"  style="position:absolute"/>
+                    <!-- <input class="submit arrow" type="image" src="./arrow.png" alt="Submit" style="position:absolute; width:2.5em;"/> -->
                 </label>
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <label for="email">
+                  Email address
+                    <!-- <input class="form-control" type="email" name="email" id="email" required placeholder="Enter email"  style="position:absolute"/> -->
+                    <input class="submit arrow" type="image" src="./arrow.png" alt="Submit" style="width:2.5em;"/>
+                </label>
+                  <small id="emailHelp" class="form-text" style="margin-top: 36px;color:gray;" >We'll never share your email with anyone else.</small>
                 </fieldset>
 
               </div>
