@@ -1,5 +1,6 @@
 body{
   background-color: rgb(241,241,241);
+  position: relative;
   /* position:absolute; */
 }
 nav{

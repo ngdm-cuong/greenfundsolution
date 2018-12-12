@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <title>AgSelect</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
       <div class="bg-dark collapse show" id="navbarHeader" style="">
         <div class=" container" style="margin-top: 0px;">
@@ -83,12 +83,12 @@
                 Products
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">All Products</a>
+                <a class="dropdown-item" href="#section1">All Products</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Premium Spirits</a>
-                <a class="dropdown-item" href="#">Local Organic</a>
-                <a class="dropdown-item" href="#">Organic Artisanal</a>
-                <a class="dropdown-item" href="#">Private Label</a>
+                <a class="dropdown-item" href="#section2">Premium Spirits</a>
+                <a class="dropdown-item" href="#section3">Local Organic</a>
+                <a class="dropdown-item" href="#section4">Organic Artisanal</a>
+                <a class="dropdown-item" href="#section5">Private Label</a>
               </div>
             </li>
             <!-- Greenfund logo here -->
@@ -233,7 +233,7 @@
      <div class="card shadow p-3 mb-5 bg-white rounded">
        <img class="card-img-top" src="./produce2.jpg" alt="Card image cap" >
        <div class="card-body">
-         <h5 class="card-title">Random catagory?</h5>
+         <h5 id ="section1" class="card-title">Random catagory?</h5>
          <p class="card-text">We can get you and the whole family into the best hotels at the best prices.</p>
        </div>
        <div class="card-footer">
