@@ -56,6 +56,7 @@ footer hr{
 /* Responsive for middle curve zoom in*/
 @media only screen and (max-width: 1745px) {
   .curvezoomin{
+  width:100%;
   position:absolute;
   height:600px;
   }
