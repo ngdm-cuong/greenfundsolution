@@ -145,22 +145,24 @@ footer hr{
 /* Footer format section end */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+.coffee {
  width: 100%; /* Full width */
- padding: 12px; /* Some padding */
+ padding: 10px; /* Some padding */
  border: 1px solid #ccc; /* Gray border */
  border-radius: 4px; /* Rounded borders */
  box-sizing: border-box; /* Make sure that padding and width stays in place */
  margin-top: 6px; /* Add a top margin */
- margin-bottom: 16px; /* Bottom margin */
- resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ margin-bottom: 10px; /* Bottom margin */
+ resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+ border-radius: 5px;
+ background-color: #f2f2f2;
 }
 
 /* Style the submit button with a specific background color etc */
 #spinach {
  background-color: #4CAF50;
  color: white;
- padding: 12px 20px;
+ padding: 12px 10px;
  border: none;
  border-radius: 4px;
  cursor: pointer;
@@ -172,8 +174,13 @@ input[type=text], select, textarea {
 }
 
 /* Add a background color and some padding around the form */
-.coffee {
- border-radius: 5px;
- background-color: #f2f2f2;
- padding: 20px;
+
+
+#seasonal {
+  height:;
+
+}
+#contactForm{
+  width:50%;
+  position:inherit;
 }
