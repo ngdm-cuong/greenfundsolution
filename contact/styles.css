@@ -11,6 +11,10 @@ nav{
     border-radius:.25rem!important
 }
 
+.active{
+border-bottom: solid 2px #009900 ;
+}
+
 #navbar {
   transition: top 0.3s;
   /* transition: opacity 1s; */

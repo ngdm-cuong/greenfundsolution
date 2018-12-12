@@ -7,10 +7,16 @@ body{
 .container-fluid{
   width:100%;
 
+
 }
 .dropdown-item.active, .dropdown-item:active {
     background-color: #009900;
 }
+/* highlight active page*/
+.active{
+border-bottom: solid 2px #009900 ;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
