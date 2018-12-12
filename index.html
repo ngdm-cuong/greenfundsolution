@@ -242,17 +242,62 @@
      </div>
    </div>
     <h2 style="text-align:center; color:#009900;font-family: 'Unlock', cursive;" class="clearfix; px__after-w-100vw ">Contact</h2>
-    <div class=" row shadow">
+    <!--Contact Form  -->
+    <div class=" row shadow" style= "color:#006600;">
       <div class ="col">
-        <p>FORM</p>
+        <div class="row rounded" style="padding-top: 15px;padding-bottom: 0px;border-radius: 4px;border:1px solid #ccc!important;position:relative;z-index: 1;">
+           <div class="mainbg"></div>
+        <div  class= "col rounded shadow" style="padding-bottom: 15px;">
+          <div>
+
+           <form  method="get" action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input class="coffee" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input class="coffee" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="phone">Phone Number</label>
+             <input class="coffee" type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+
+            <label for="email">Email</label>
+            <input class="coffee" type="email" name="emailAddress" placeholder="JaneDoe@domain.com...">
+
+            <label for="time">Time</label>
+            <select class="coffee" name="time" id="time">
+              <option value="a.m.">a.m.</option>
+              <option value="p.m.">p.m.</option>
+              <option value="any">any</option>
+            </select>
+
+            <label for="day">Day</label>
+            <select class="coffee" name="day" id="day">
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+
+             <label for="notes">Notes</label>
+             <textarea class="coffee" style="height:100px" placeholder="Add a brief note here..." name="notes" cols="30" rows="10"></textarea>
+
+             <input id="spinach" type="submit" value="Submit">
+
+          </form>
+          </div>
+        </div>
+      </div>
       </div>
       <div class ="col">
         <p> MAYBE PICTURE OF SERVICE STAFF</p>
+        <div style="width: 100%"><iframe width="100%" height="472" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe></div><br />
       </div>
     </div>
   </div>
 
-        <footer>
+  <footer>
 <!-- footer content and content locating -->
     <div class="container-fluid noncurveft" style="padding-top: 250px;position:absolute;padding-left: 113px;padding-right: 113px;">
 
@@ -350,10 +395,9 @@
           </svg>
         </div>
 
-      </footer>
+  </footer>
 
-
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
